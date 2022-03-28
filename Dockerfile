@@ -1,5 +1,5 @@
    
-FROM kalilinux/kali-rolling
+FROM developeranaz/aria2rclone:beta
 EXPOSE 8080
 RUN apt update -y  && \
     apt install curl -y  && \
